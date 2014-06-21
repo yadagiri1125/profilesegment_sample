@@ -1,0 +1,9 @@
+git commit -m "first commit"
+git remote add origin https://github.com/yadagiri1125/profilesegment_sample.git
+git push -u origin master
+
+git commit -m "initial commit"
+
+git mv readme.rdoc readme.markdown && git commit -am "improved markdown"
+
+rails generate scaffold User name:string email:string
