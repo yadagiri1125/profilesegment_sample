@@ -14,5 +14,7 @@ git diff
 
 ctrl + r
 
+psql -d mydb -U myuser
 
+ALTER USER Postgres WITH PASSWORD '<newpassword>';
 
