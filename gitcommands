@@ -7,3 +7,12 @@ git commit -m "initial commit"
 git mv readme.rdoc readme.markdown && git commit -am "improved markdown"
 
 rails generate scaffold User name:string email:string
+rails generate scaffold Micropost content:string user_id:integer
+rake db:rollback
+rails destroy scaffold Micropost
+git diff
+
+ctrl + r
+
+
+
